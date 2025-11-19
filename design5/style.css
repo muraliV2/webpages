@@ -1,0 +1,163 @@
+body
+{
+    margin: o;
+    padding: 0;
+    background-color:#F5F7FA;
+}
+#cont
+{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid none;
+    text-align: center;
+    padding: 10px;
+    
+}
+#top
+{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(155, 159, 162);
+    margin-top: 20px;
+    font-size:35px;
+}
+#top1
+{
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:28px;
+    margin-top: 20px;
+}
+#pa
+{
+display: block;
+height: 10px;
+width: 500px;
+margin: 0 auto;
+font-size: 20px;
+margin-bottom: 80px;
+margin-top: 20px;
+color: #7D8287;
+font-weight: light;
+
+}
+#cont1
+{
+    border: 0;
+    padding: 0;
+    border: 1px solid none;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
+    
+}
+#box1,#box2,#box3,#box4
+{
+height: 250px;
+width: 450px;
+/* border: 1px solid black;
+/* border-left: none;
+border-bottom: none;
+border-right: none; */ 
+
+}
+#box1
+{
+margin-top: 40%;
+position: relative;
+ border-top: 4px solid #23C6C8;
+ /* padding: 20px; */
+ display: grid;
+ grid-auto-flow: row;
+ justify-items: flex-start;
+ padding: 30px;
+ background-color: white;
+ border-radius: 10px;
+ box-shadow: 2px 2px 20px black;
+
+
+}
+
+#box2
+{
+position: relative;
+ border-top: 4px solid #FF6B6B;
+ padding: 30px;
+ display: grid;
+ grid-auto-flow: row;
+ justify-items: flex-start;
+ background-color: white;
+ border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+ 
+ 
+
+}
+#box3
+{
+    
+    position: absolute;
+    left: 38%; 
+    top: 61%;
+    border-top: 4px solid #FFB84C;
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: start;
+    padding: 30px;
+     background-color: white;
+     border-radius: 10px;
+      box-shadow: 2px 2px 20px black;
+}
+#box4
+{
+    position: relative;
+    margin-top: 40%;
+    
+ border-top: 4px solid #3DA4FF;
+ display: grid;
+ grid-auto-flow: row;
+ padding: 30px;
+ justify-items: start;
+ background-color: white;
+ border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+}
+
+p,h1
+{
+    margin: 0;
+    padding: 0;
+}
+
+#ing2
+{
+    display: grid;
+   
+    justify-self: flex-end;
+    align-self: flex-end;
+    
+}
+.hi
+{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pi
+{
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    color: #7D8287;
+}
+
+#ing1
+{
+    position: grid;
+    align-self: end;
+    justify-self: end;
+}
