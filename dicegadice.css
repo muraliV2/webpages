@@ -1,0 +1,52 @@
+#cont
+{
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+}
+h1
+{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn
+{
+height: 40px;
+width: 140px;
+padding: 10px;
+font-size: 18px;
+background-color: hsl(240, 99%, 60%);
+color: white;
+}
+
+#btn:hover
+{
+    background-color: hsl(240, 99%, 70%);
+}
+#btn :active
+{
+    background-color: hsl(240, 99%, 80%);
+}
+#bx
+{
+    margin: 10px;
+    height: 33px;
+
+}
+#lab
+{
+    font-size: 20px;
+}
+#diceresult
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#diceimages img
+{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
