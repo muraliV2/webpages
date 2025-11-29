@@ -1,14 +1,22 @@
 //random password generator
 
-function RandomPass(AllowedLength,AllowedLower,AllowedUpper,AllowedNumbers,AllowedSymbols)
+function RandomPass()
 {
+let AllowedLength = document.getElementById("len").value
+let AllowedLower = document.getElementById("Lc").checked
+let AllowedUpper = document.getElementById("Uc").checked
+let AllowedNumbers = document.getElementById("numb").checked
+let AllowedSymbols = document.getElementById("Sym").checked
+let result1 = document.getElementById("res")
+
+
     const LowerCaseChars = 'abcdefghijklmnopqrstuvwxyz'
     const UpperCaseChars ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     const AllNumbers ='1234567890'
     const AllSymbols = '!@#$%^&*'
 
     let AllowedPass = "";
-    let Password = " " ;
+    let Password = "" ;
     AllowedPass += AllowedLower ? LowerCaseChars : "" ;
     AllowedPass += AllowedUpper ? UpperCaseChars :  "" ; 
     AllowedPass += AllowedSymbols ? AllSymbols : "" ;
@@ -31,20 +39,10 @@ function RandomPass(AllowedLength,AllowedLower,AllowedUpper,AllowedNumbers,Allow
       
 
     }
-    return Password;
+    // return Password;
     // return AllowedPass
+    result1.textContent = Password;
 
 }
-const AllowedLength = 10;
-const AllowedLower = true;
-const AllowedUpper = true;
-const AllowedNumbers = true;
-const  AllowedSymbol = true;
 
-
-
- const hi = RandomPass(AllowedLength,AllowedLower,AllowedUpper,AllowedNumbers,AllowedSymbol)
-
-
-console.log(hi)
 
