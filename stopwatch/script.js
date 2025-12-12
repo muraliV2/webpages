@@ -6,7 +6,7 @@ function padStart(value)
     return String(value).padStart(2,"0")
 }
 
-function Incre()
+function Increment()
 {
     const minutes = Math.floor(Reqnum /60);
     const Seconds = Reqnum % 60;
@@ -17,7 +17,7 @@ function Incre()
 function ad()
 {
     Reqnum++;
-    Incre();
+    Increment();
 }
 function start()
 {
@@ -32,7 +32,7 @@ function reset()
 {
     stop()
      Reqnum = 0;
-    Incre()
+    Increment()
 
 
 }
