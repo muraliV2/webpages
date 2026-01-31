@@ -15,7 +15,7 @@ let val = document.getElementById("diceresult")
         values.push(value);
     }
    val.textContent =`dice : ${values}`
-   im.innerHTML = images.join('')
+   im.innerHTML = images.join('') 
   
 
 
