@@ -1,6 +1,6 @@
 let input = document.getElementById("hi")
 let result = document.getElementById("res")
-function reverse(str) {
+function reverse(str){
     return str.split("").reverse().join("");
 }
 function work() {
