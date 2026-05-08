@@ -7,7 +7,6 @@ function work() {
     let value = input.value
     let rev = reverse(value);
     console.log(rev);
-
     if(value === rev)
     {
         result.textContent = `it is a palindrome ${value}=${rev}`
