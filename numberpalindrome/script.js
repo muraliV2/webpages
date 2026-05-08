@@ -1,7 +1,5 @@
 
 let res = document.getElementById("res")
-
-
 function check()
 {
 let num = document.getElementById("inp").value
