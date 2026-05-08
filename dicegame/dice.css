@@ -20,7 +20,7 @@ color: white;
 }
 #btn:hover
 {
-    background-color: hsl(240, 99%, 70%);
+background-color: hsl(240, 99%, 70%);
 }
 #btn :active
 {
