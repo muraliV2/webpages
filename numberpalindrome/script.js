@@ -1,4 +1,3 @@
-
 let res = document.getElementById("res")
 function check()
 {
