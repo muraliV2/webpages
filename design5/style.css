@@ -10,8 +10,7 @@ body
     height: 100vh;
     border: 1px solid none;
     text-align: center;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 #top
 {
@@ -71,8 +70,6 @@ position: relative;
  background-color: white;
  border-radius: 10px;
  box-shadow: 2px 2px 20px black;
-
-
 }
 
 #box2
@@ -86,7 +83,6 @@ position: relative;
  background-color: white;
  border-radius: 10px;
   box-shadow: 2px 2px 20px black;
-
 }
 #box3
 {
@@ -101,7 +97,7 @@ position: relative;
     padding: 30px;
      background-color: white;
      border-radius: 10px;
-      box-shadow: 2px 2px 20px black;
+     box-shadow: 2px 2px 20px black;
 }
 #box4
 {
