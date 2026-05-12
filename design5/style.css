@@ -51,19 +51,13 @@ font-weight: light;
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
-    gap: 30px;
-    
+    gap: 30px;    
 }
 #box1,#box2,#box3,#box4
 {
 height: 250px;
 width: 450px;
-/* border: 1px solid black;
-/* border-left: none;
-border-bottom: none;
-border-right: none; */ 
 
-}
 #box1
 {
 margin-top: 40%;
@@ -92,8 +86,6 @@ position: relative;
  background-color: white;
  border-radius: 10px;
   box-shadow: 2px 2px 20px black;
- 
- 
 
 }
 #box3
