@@ -103,7 +103,6 @@ position: relative;
 {
     position: relative;
     margin-top: 40%;
-    
  border-top: 4px solid #3DA4FF;
  display: grid;
  grid-auto-flow: row;
@@ -119,14 +118,12 @@ p,h1
     margin: 0;
     padding: 0;
 }
-
 #ing2
 {
     display: grid;
    
     justify-self: flex-end;
-    align-self: flex-end;
-    
+    align-self: flex-end;    
 }
 .hi
 {
