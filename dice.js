@@ -11,7 +11,7 @@ let val = document.getElementById("diceresult")
     const value = Math.floor(Math.random() * 6 + 1); 
         images.push(`<img src="dice-images/${value}.png">`)
         values.push(value);
-    }
+  }
    val.textContent =`dice : ${values}`
    im.innerHTML = images.join('')   
 }
