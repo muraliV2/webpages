@@ -16,7 +16,6 @@ let val = document.getElementById("diceresult")
    im.innerHTML = images.join('') 
   
 
-
 }
  
 
