@@ -11,7 +11,6 @@ function Increment()
     const Seconds = Reqnum % 60;
     time.innerHTML =    `${padStart(minutes)} : ${padStart(Seconds)}`
 }
-
 function ad()
 {
     Reqnum++;
