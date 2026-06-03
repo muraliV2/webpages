@@ -31,5 +31,4 @@ function reset()
      Reqnum = 0;
     Increment()
 
-
 }
